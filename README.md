@@ -3,8 +3,8 @@ Shitty honeypot repo; Made by me ([@LulzAmp](https://github.com/LulzAmp)) and or
 **Warning:** actually, really shitty. I tried to start it off as a small logger, it got out of hands. Might add E-Mail Support soon (if I get bored again).
 
 
-1. Configure .htaccess (set the path to the full path to your .htpassword)
-2. Configure CloudFlare (at the top of index.php)
+1. Configure .htaccess (.htacces: line 2; set the path to the full path to your .htpassword)
+2. Configure CloudFlare (index.php: line 2)
 3. Configure Users (honeylog.php: line 13; use [PASSWORD_BCRYPT](https://bcrypt-generator.com) to hash your passwords.)
 4. You're done; have fun.
 
