@@ -10,8 +10,7 @@ if(isset($_GET['sess_destroy'])){
 
 function signIn($user, $pass){
 	$users = array(
-		'root' => '$2y$10$7jMzA4Ju0Aiq1QjJ5y9rleLr.KvfDWWiN4EKaCyCybCLIzNMI/oMm', // remove this account to improve security (root:toor)
-		'username' => 'password, hashed using password_hash("string", PASSWORD_BCRYPT)' // check this out.
+		/* username */ 'root' => /* password */ '$2y$10$7jMzA4Ju0Aiq1QjJ5y9rleLr.KvfDWWiN4EKaCyCybCLIzNMI/oMm', // remove this account to improve security (root:toor)
 	);
 	if(array_key_exists($user, $users)){
 		if(password_verify($pass, $users[$user])){
