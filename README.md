@@ -8,7 +8,7 @@ Shitty honeypot repo; Made by me ([@LulzAmp](https://github.com/LulzAmp)) and or
 3. Configure Users (honeylog.php: line 13; use [PASSWORD_BCRYPT](https://bcrypt-generator.com) to hash your passwords.)
 4. You're done; have fun.
 
-Optional: 5. remove the following part of code from .htaccess and remove .htpasswd completely, so dumbasses won't give up on the login.
+Optional: 5. remove [the following lines of code](https://github.com/LulzAmp/HoneYLoG/blob/master/.htaccess#L1-L6) from .htaccess and remove .htpasswd completely, so dumbasses won't give up on the login.
 ```apacheconf
 # setup htpasswd
 AuthUserFile /full/path/to/.htpasswd
