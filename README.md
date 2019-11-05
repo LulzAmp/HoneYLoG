@@ -19,3 +19,6 @@ Require valid-user
 ```
 
 > .htpassword contains **root:toor**
+
+## Discontinued
+This has become unmaintainable code already. Plus, it's not a great project at all. I don't even know why we decided to put it on GitHub. Anyways, enjoy trying to understand my shitty code from, like 200, years ago.
